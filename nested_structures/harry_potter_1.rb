@@ -2,8 +2,7 @@
 # type `ruby harry_potter_1_test.rb` to run the test suite
 # from inside the nested_structures directory.
 # The first test is done for you `test_it_works` to make sure 
-# everything is hooked up! You can add `skip` to the top
-# of each test to focus on one test at a time.
+# everything is hooked up! 
 
 def repeat(structure)
     {}

@@ -6,6 +6,8 @@ class StringTwoTest < Minitest::Test
         greeting = "hello there"
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = ["h", "e", "l", "l", "o", " ", "t", "h", "e", "r", "e"]
@@ -17,6 +19,8 @@ class StringTwoTest < Minitest::Test
         skip
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = "eter ier icked a ickled eer."
@@ -28,6 +32,8 @@ class StringTwoTest < Minitest::Test
         greeting = "Peter Piper picked a pickled pepper."
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = "Ptr Ppr pckd  pckld pppr."
@@ -39,6 +45,8 @@ class StringTwoTest < Minitest::Test
         greeting = "Stars"
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = "Sta*rs"
@@ -50,6 +58,8 @@ class StringTwoTest < Minitest::Test
         greeting = "9938"
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = "000000009938"
@@ -61,6 +71,8 @@ class StringTwoTest < Minitest::Test
         skip
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = "Stars"
@@ -72,6 +84,8 @@ class StringTwoTest < Minitest::Test
         greeting = "Each word should be alone."
         #-----and code here-------
 
+        actual = 
+        
 
         #--------------------------
         expected = ["Each", "word", "should", "be", "alone."]
@@ -83,7 +97,8 @@ class StringTwoTest < Minitest::Test
         greeting = "Each.Word.Should.Be.Alone."
         #-----and code here-------
 
-
+        actual = 
+        
         #--------------------------
         expected = ["Each", "Word", "Should", "Be", "Alone"]
         assert_equal expected, actual
@@ -95,6 +110,8 @@ class StringTwoTest < Minitest::Test
         #-----and code here-------
 
 
+        actual = 
+        
         #--------------------------
         expected = ["Each", "Word", "Should", "Be", "Alone"]
         assert_equal expected, actual

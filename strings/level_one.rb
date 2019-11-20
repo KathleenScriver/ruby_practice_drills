@@ -17,7 +17,10 @@ class StringOneTest < Minitest::Test
         skip
         yelling = "HELLO THERE"
         #-----and code here-------
+
         actual = ________________
+
+
         #--------------------------
         expected = "hello there"
         assert_equal expected, actual
@@ -27,6 +30,8 @@ class StringOneTest < Minitest::Test
         skip
         gretting = "Hello There"
         #-----and code here-------
+
+        actual = 
 
         #--------------------------
         expected = "erehT olleH"
@@ -38,6 +43,8 @@ class StringOneTest < Minitest::Test
         greeting = "Hello there again!"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = 18
         assert_equal expected, actual
@@ -48,6 +55,8 @@ class StringOneTest < Minitest::Test
         user_input = "I like purple\n"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "I like purple"
         assert_equal expected, actual
@@ -59,6 +68,8 @@ class StringOneTest < Minitest::Test
         second = "there"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "Hello there"
         assert_equal expected, actual
@@ -71,6 +82,8 @@ class StringOneTest < Minitest::Test
         #--use a different method--
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "Hello there"
         assert_equal expected, actual
@@ -83,6 +96,8 @@ class StringOneTest < Minitest::Test
         #--use a third different method--
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "Hello there"
         assert_equal expected, actual
@@ -93,6 +108,8 @@ class StringOneTest < Minitest::Test
         long_greeting = "     Hello there"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "Hello there"
         assert_equal expected, actual
@@ -103,6 +120,8 @@ class StringOneTest < Minitest::Test
         long_greeting = "     Hello there"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "Hello there"
         assert_equal expected, actual
@@ -113,6 +132,8 @@ class StringOneTest < Minitest::Test
         long_greeting = "more text"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "*****more text*****"
         assert_equal expected, actual
@@ -123,6 +144,8 @@ class StringOneTest < Minitest::Test
         long_greeting = "     verbose     "
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "verbose     "
         assert_equal expected, actual
@@ -133,6 +156,8 @@ class StringOneTest < Minitest::Test
         greeting = "Sup!"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "S"
         assert_equal expected, actual
@@ -143,6 +168,8 @@ class StringOneTest < Minitest::Test
         greeting = "Sup!"
         #-----and code here-------
 
+        actual = 
+        
         #--------------------------
         expected = "p"
         assert_equal expected, actual
