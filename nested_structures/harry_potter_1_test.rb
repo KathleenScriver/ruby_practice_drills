@@ -162,7 +162,8 @@ class HarryPotter1Test < Minitest::Test
     end
     
     def test_it_works
-      skip
+      # skip
+      # code already written, this test should pass!
         assert_instance_of Hash, (repeat(@harry_potter))
     end
 
@@ -256,22 +257,83 @@ class HarryPotter1Test < Minitest::Test
 
         assert_equal expected, names_and_relatives(@harry_potter)
     end
+
+    def test_houses_and_characters
+      skip
+      # Return a hash that has each house name as the key and an array of characters in that house as the values
+      expected = {
+        "Gryffindor"=>[:harry, :ron, :hermione, :dumbledore, :sirius, :hagrid, :neville], 
+        "Slytherin"=>[:voldemort, :snape, :draco]
+      }
+
+      assert_equal expected, houses_and_characters(@harry_potter)        
+    end
+
+    def test_wanded_characters
+      skip
+      # Return an array of all characters names that use a wand
+      expected = [:harry, :ron, :hermione, :dumbledore, :voldemort, :draco, :hagrid, :neville]
+
+      assert_equal expected, characters_with_wands(@harry_potter)
+    end
+
+    def test_has_patronus_spell
+      skip
+      # Return an array of all characters names that have patronus spells
+      expected = [:harry, :ron, :hermione, :dumbledore, :snape, :hagrid]
+
+      assert_equal expected, has_patronus_spell(@harry_potter)
+    end
+
+    def test_friends_of_harry
+      skip
+      # Return an array of all character that have Harry Potter as a friend
+      expected = [:ron, :hermione, :dumbledore, :hagrid, :neville]
+
+      assert_equal expected, friends_of_harry(@harry_potter)
+    end
         
+    def test_ancestry_map
+      skip
+      # Return a hash that has each ancestry category as a key and an array of characters in that category as the values
+      expected = {
+        "Half-blood"=>[:harry, :dumbledore, :voldemort, :snape, :hagrid], 
+        "Pure blood"=>[:ron, :sirius, :draco, :neville], 
+        "Muggle-born"=>[:hermione]
+      }
+
+      assert_equal expected, ancestry_map(@harry_potter)
+    end
         
-        # 4. Return a hash that has each house name as the key and an array of characters in that house as the values
-        
-        
-        # 5. Return an array of all characters that use a wand
-        
-        
-        # 6. Return an array of all characters that have patronus spells
-        
-        
-        # 7. Return an array of all character that have Harry Potter as a friend
-        
-        
-        # 8. Return a hash that has each ancestry category as a key and an array of characters in that category as the values
-        
-        
-        # 9. Return an array of magic items with no duplicates
+    def test_magic_items
+      skip    
+      # Return an array of magic items with no duplicates (ok if items
+      # are in a different order)
+      expected = [
+        "wand",
+        "broomstick",
+        "invisibility cloak",
+        "marauder's map",
+        "pocket sneakoscope",
+        "wizard chess set",
+        "revealer",
+        "deluminator",
+        "watch with 12 hands",
+        "mirror of erised",
+        "pensieve",
+        "peverell ring",
+        "diary",
+        "Slytherin ring",
+        "Slytherin locket",
+        "Hufflepuff cup",
+        "potions",
+        "flying motorcycle",
+        "two-way mirror",
+        "flesh-eating slug repellent",
+        "remembrall",
+        "mimbulus mimbletonia"
+      ]
+
+      assert_equal expected, magic_items(@harry_potter)
+    end        
 end

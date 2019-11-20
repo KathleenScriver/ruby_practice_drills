@@ -17,7 +17,7 @@ class StringOneTest < Minitest::Test
         skip
         yelling = "HELLO THERE"
         #-----and code here-------
-
+        actual = ________________
         #--------------------------
         expected = "hello there"
         assert_equal expected, actual
