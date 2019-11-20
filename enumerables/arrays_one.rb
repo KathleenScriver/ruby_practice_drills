@@ -56,7 +56,7 @@ class EnumberableArrayOneTest < Minitest::Test
             "Invisible Man", 
             "Paradise Lost", 
             "The Alchemist", 
-            "The Great Gatsby"
+            "The Great Gatsby",
             "The Hip Hop Generation", 
             "To Kill a Mockingbird", 
         ]
