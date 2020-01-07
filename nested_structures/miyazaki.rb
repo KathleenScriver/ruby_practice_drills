@@ -1,3 +1,4 @@
+require 'pry'
 miyazaki = {
     :shorts => [
       {
@@ -88,8 +89,8 @@ miyazaki = {
     :tv_series => [
       {
         :title => 'Sherlock Hound',
-        start_:year => 1984,
-        end_:year => 1985,
+        :start_year => 1984,
+        :end_year => 1985,
         :poster => 'https://m.media-amazon.com/images/M/MV5BNjI2MWJhZDctZTZjYy00ZmYzLWFiMzMtNzI3Mzk5ZTUzNDc0XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_.jpg',
         :language => ['italian', 'english', 'japanese'],
         :run_time_min => 24,
@@ -97,8 +98,8 @@ miyazaki = {
       },
       {
         :title => 'Lupin the 3rd',
-        start_:year => 1980,
-        end_:year => 1980,
+        :start_year => 1980,
+        :end_year => 1980,
         :poster => 'https://m.media-amazon.com/images/M/MV5BMTIzMDY5NjE4OF5BMl5BanBnXkFtZTcwMTcxMjE1MQ@@._V1_UY268_CR3,0,182,268_AL_.jpg',
         :language => ['english', 'french', 'italian', 'tagalog', 'japanese'],
         :run_time_min => 30,
@@ -106,8 +107,8 @@ miyazaki = {
       },
       {
         :title => 'Future Boy Conan',
-        start_:year => 1978,
-        end_:year => 1978,
+        :start_year => 1978,
+        :end_year => 1978,
         :poster => 'https://m.media-amazon.com/images/M/MV5BNjRhZDJkNjEtYzcwZS00NDJjLTljMTAtNTY1ZmYyYzQ2Njk0XkEyXkFqcGdeQXVyNDE2NjE1Njc@._V1_UY268_CR3,0,182,268_AL_.jpg',
         :language => 'japanese',
         :run_time_min => 24,
@@ -115,8 +116,8 @@ miyazaki = {
       },
       {
         :title => 'Lupin the 3rd',
-        start_:year => 1971,
-        end_:year => 1972,
+        :start_year => 1971,
+        :end_year => 1972,
         :poster => 'https://m.media-amazon.com/images/M/MV5BODM1ZWQ1NTgtMTY0Ni00Mzk3LTgzZjEtZTQyY2IzODE1NDZiXkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_UY268_CR4,0,182,268_AL_.jpg',
         :language => ['french', 'german', 'italian', 'portuguese', 'spanish', 'japanese'],
         :run_time_min => 23,
@@ -222,6 +223,10 @@ miyazaki = {
       }
     ]
 }
+
+binding.pry
+
+miyazaki.keys
   
   # 1. Return an array of all the short movies released before 2005
   

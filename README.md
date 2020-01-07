@@ -13,13 +13,14 @@ Do these exercises over and over to build your Ruby Muscles!
 
 *Test Files*
 
-For most cases, you'll be working with a test file only. Write your code in the space indicated to try to get the test to pass. Do not change any code outside of the space where you are to place your code. There are many ways to achieve the expected results, try to focus on the documented methods in the category of data you're working on. Ruby String docs for strings, Ruby Array docs for arrays, etc.
+For most cases, you'll be working with the test file only. (*Note*: Exception being files in the nested_strucutres directory that don't end in `_test`, then simply write your methods at the bottom of the file and run that file to test your code.)
+Write your code in the space indicated to try to get the test to pass. Do not change any code outside of the space where you are to place your code. There are many ways to achieve the expected results, try to focus on the documented methods in the category of data you're working on. Ruby String docs for strings, Ruby Array docs for arrays, etc.
 
 Example:
 ```
     def test_example
         greeting = "hello there"
-        #-----and code here-------
+        #-----add code here-------
 
         actual = greeting.capitalize
 
